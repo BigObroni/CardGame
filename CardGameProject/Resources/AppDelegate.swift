@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  test
+//  CardGameProject
 //
 //  Created by Kyle Franklin on 8/18/21.
 //
