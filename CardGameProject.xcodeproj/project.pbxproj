@@ -57,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				F099168726CD87AA00B56255 /* Storyboard */,
-				F099168526CD879100B56255 /* Views */,
 				F099168426CD874C00B56255 /* Resources */,
 				F099167426CD871D00B56255 /* ViewController.swift */,
 			);
@@ -73,21 +72,6 @@
 				F099167E26CD871F00B56255 /* Info.plist */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		F099168526CD879100B56255 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				F099168626CD879B00B56255 /* ViewController */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		F099168626CD879B00B56255 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		F099168726CD87AA00B56255 /* Storyboard */ = {
