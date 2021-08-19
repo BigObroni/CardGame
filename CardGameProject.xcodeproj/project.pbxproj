@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE8A512D26CEBF150064E2FB /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A512C26CEBF150064E2FB /* Card.swift */; };
+		CE8A512F26CEBF220064E2FB /* CardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A512E26CEBF220064E2FB /* CardController.swift */; };
+		CE8A513426CEBFB60064E2FB /* CardError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A513326CEBFB60064E2FB /* CardError.swift */; };
+		CE8A513626CEBFC50064E2FB /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A513526CEBFC50064E2FB /* UIViewControllerExtension.swift */; };
 		F099167126CD871D00B56255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099167026CD871D00B56255 /* AppDelegate.swift */; };
 		F099167326CD871D00B56255 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099167226CD871D00B56255 /* SceneDelegate.swift */; };
 		F099167526CD871D00B56255 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099167426CD871D00B56255 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE8A512C26CEBF150064E2FB /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CE8A512E26CEBF220064E2FB /* CardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardController.swift; sourceTree = "<group>"; };
+		CE8A513326CEBFB60064E2FB /* CardError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardError.swift; sourceTree = "<group>"; };
+		CE8A513526CEBFC50064E2FB /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		F099166D26CD871D00B56255 /* CardGameProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGameProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F099167026CD871D00B56255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F099167226CD871D00B56255 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE8A512A26CEBE9E0064E2FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE8A512C26CEBF150064E2FB /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE8A512B26CEBEA70064E2FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE8A513126CEBF3B0064E2FB /* ViewController */,
+				CE8A513026CEBF310064E2FB /* ModelController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE8A513026CEBF310064E2FB /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				CE8A512E26CEBF220064E2FB /* CardController.swift */,
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
+		CE8A513126CEBF3B0064E2FB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F099167426CD871D00B56255 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CE8A513226CEBF840064E2FB /* Helpers + Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE8A513326CEBFB60064E2FB /* CardError.swift */,
+				CE8A513526CEBFC50064E2FB /* UIViewControllerExtension.swift */,
+			);
+			path = "Helpers + Extensions";
+			sourceTree = "<group>";
+		};
 		F099166426CD871D00B56255 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +106,11 @@
 		F099166F26CD871D00B56255 /* CardGameProject */ = {
 			isa = PBXGroup;
 			children = (
+				CE8A513226CEBF840064E2FB /* Helpers + Extensions */,
+				CE8A512B26CEBEA70064E2FB /* Controller */,
+				CE8A512A26CEBE9E0064E2FB /* Model */,
 				F099168726CD87AA00B56255 /* Storyboard */,
 				F099168426CD874C00B56255 /* Resources */,
-				F099167426CD871D00B56255 /* ViewController.swift */,
 			);
 			path = CardGameProject;
 			sourceTree = "<group>";
@@ -153,9 +205,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8A512F26CEBF220064E2FB /* CardController.swift in Sources */,
 				F099167526CD871D00B56255 /* ViewController.swift in Sources */,
+				CE8A513426CEBFB60064E2FB /* CardError.swift in Sources */,
 				F099167126CD871D00B56255 /* AppDelegate.swift in Sources */,
 				F099167326CD871D00B56255 /* SceneDelegate.swift in Sources */,
+				CE8A513626CEBFC50064E2FB /* UIViewControllerExtension.swift in Sources */,
+				CE8A512D26CEBF150064E2FB /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
